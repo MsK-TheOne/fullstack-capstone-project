@@ -1,36 +1,68 @@
-/* Style for image placeholder */
+/* Hint 1: Styling the Image Placeholder Wrapper */
 .image-placeholder-large {
-    /* Task 1 styling */
-    {{insert code here}}
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
-/* Style for product image */
+/* Hint 2: Styling the Product Image inside the wrapper */
 .product-image-large {
-    /* Task 2 styling */
-    {{insert code here}}
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area beautifully without distortion */
 }
 
-/* Style for 'no image available' placeholder */
+/* Hint 3: Styling 'No Image Available' Placeholder using Flexbox */
 .no-image-available-large {
-    /* Task 3 styling */
-    {{insert code here}}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #e9ecef;
+    font-size: 1.25rem;
+    color: #6c757d;
+    font-weight: 500;
 }
 
-/* Style for card header */
-.card-header {
-    /* Task 4 styling */
-    {{insert code here}}
+/* Hint 4: Styling the Card Header */
+.product-details-card .card-header {
+    background-color: #0d6efd; /* Theme matching blue */
+    padding: 15px 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
-/* Style for details title */
+/* Hint 5: Styling the Details Title */
 .details-title {
-    /* Task 5 styling */
-    {{insert code here}}
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #ffffff; /* White text for great contrast */
+    margin: 0;
 }
 
-/* Style for comments section */
+/* Hint 6: Styling the Comments Section for Readability */
 .comments-section {
-    /* Task 6 styling */
-    {{insert code here}}
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
+.comment-author {
+    color: #495057;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+.comment-text {
+    color: #6c757d;
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
